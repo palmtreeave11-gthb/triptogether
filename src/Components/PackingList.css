@@ -1,0 +1,59 @@
+.packinglist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.packinglist-deleteButton {
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.packinglist-form {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.packinglist-input {
+  width: 320px;
+}
+
+
+.packinglist-deleteButton:hover {
+  color: #4f6c72;
+}
+
+.packinglist-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.packinglist-itemLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.packinglist-itemLabel input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+input[type="checkbox"] {
+  accent-color: var(--checkbox-accent);
+  color-scheme: light;
+  width: 18px;
+  height: 18px;
+}

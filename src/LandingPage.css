@@ -1,0 +1,49 @@
+.landing {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+.hero {
+  max-width: 780px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  margin: 0 0 16px;
+  font-size: 56px;
+  line-height: 1.05;
+  max-width: 600px;
+}
+
+.hero-text {
+  margin: 0 0 24px;
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.preview-section {
+  margin-top: 48px;
+}
+
+.preview-image {
+    width: 100%;
+    max-width: 800px;
+    /* opacity: 0.85; */
+    filter: saturate(0.9);
+    border-radius: 20px;
+    opacity: 0.75;
+    transform: scale(0.98);
+    /* opacity: 0.9; */
+    filter: brightness(0.98) contrast(0.95);
+  }
+
+.primary-button {
+    display: block;
+    margin: 32px auto 0;   /* centers it */
+    padding: 16px 28px;    /* bigger click area */
+    font-size: 18px;
+    border-radius: 999px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  }
